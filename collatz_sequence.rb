@@ -1,3 +1,6 @@
+# Tests all numbers between 2 and 1 million, if the number is even, divide by 2, if odd, multiple by three and add 1 until the number equals 1.
+# Which starting number, under one million, produces the longest chain?
+
 def longest_chain
   hash = {}
   # count of current length of tested value
